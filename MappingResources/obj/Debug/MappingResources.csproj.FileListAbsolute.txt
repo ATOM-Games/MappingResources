@@ -1,0 +1,11 @@
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\bin\Debug\MappingResources.exe.config
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\bin\Debug\MappingResources.exe
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\bin\Debug\MappingResources.pdb
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.csproj.AssemblyReference.cache
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.Form1.resources
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.Properties.Resources.resources
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.csproj.GenerateResource.cache
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.exe
+C:\Users\1\Documents\РАБОТА\ЭПАМ\EPAM-TASKS\TASK_04\MappingResources\MappingResources\obj\Debug\MappingResources.pdb
