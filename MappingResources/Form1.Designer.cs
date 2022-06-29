@@ -23,16 +23,20 @@
 			this.сохранитьКартуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.закрытьПрограммуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+			this.сгенеритьСидToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem});
+            this.файлToolStripMenuItem,
+            this.toolStripTextBox1,
+            this.сгенеритьСидToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+			this.menuStrip1.Size = new System.Drawing.Size(800, 27);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -45,7 +49,7 @@
             this.toolStripSeparator1,
             this.закрытьПрограммуToolStripMenuItem});
 			this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-			this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+			this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 23);
 			this.файлToolStripMenuItem.Text = "Файл";
 			// 
 			// новаяКартаToolStripMenuItem
@@ -53,18 +57,21 @@
 			this.новаяКартаToolStripMenuItem.Name = "новаяКартаToolStripMenuItem";
 			this.новаяКартаToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
 			this.новаяКартаToolStripMenuItem.Text = "Новая карта";
+			this.новаяКартаToolStripMenuItem.Click += new System.EventHandler(this.New_Map_ToolStripMenuItem_Click);
 			// 
 			// открытьКартуToolStripMenuItem
 			// 
 			this.открытьКартуToolStripMenuItem.Name = "открытьКартуToolStripMenuItem";
 			this.открытьКартуToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
 			this.открытьКартуToolStripMenuItem.Text = "Открыть карту";
+			this.открытьКартуToolStripMenuItem.Click += new System.EventHandler(this.Open_Map_ToolStripMenuItem_Click);
 			// 
 			// сохранитьКартуToolStripMenuItem
 			// 
 			this.сохранитьКартуToolStripMenuItem.Name = "сохранитьКартуToolStripMenuItem";
 			this.сохранитьКартуToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
 			this.сохранитьКартуToolStripMenuItem.Text = "Сохранить карту";
+			this.сохранитьКартуToolStripMenuItem.Click += new System.EventHandler(this.Save_Map_ToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator1
 			// 
@@ -77,6 +84,21 @@
 			this.закрытьПрограммуToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
 			this.закрытьПрограммуToolStripMenuItem.Text = "Закрыть программу";
 			this.закрытьПрограммуToolStripMenuItem.Click += new System.EventHandler(this.Close_programm_ToolStripMenuItem_Click);
+			// 
+			// toolStripTextBox1
+			// 
+			this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.toolStripTextBox1.Name = "toolStripTextBox1";
+			this.toolStripTextBox1.ReadOnly = true;
+			this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
+			this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
+			// 
+			// сгенеритьСидToolStripMenuItem
+			// 
+			this.сгенеритьСидToolStripMenuItem.Name = "сгенеритьСидToolStripMenuItem";
+			this.сгенеритьСидToolStripMenuItem.Size = new System.Drawing.Size(98, 23);
+			this.сгенеритьСидToolStripMenuItem.Text = "Сгенерить сид";
+			this.сгенеритьСидToolStripMenuItem.Click += new System.EventHandler(this.SeedToolStripMenuItem_Click);
 			// 
 			// Form1
 			// 
@@ -104,6 +126,8 @@
 		private System.Windows.Forms.ToolStripMenuItem сохранитьКартуToolStripMenuItem;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 		private System.Windows.Forms.ToolStripMenuItem закрытьПрограммуToolStripMenuItem;
+		public System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
+		private System.Windows.Forms.ToolStripMenuItem сгенеритьСидToolStripMenuItem;
 	}
 }
 
