@@ -192,6 +192,7 @@ namespace MappingResources
 				for (w = 0; w < this.mp.main_map.Width; w++) {
 					this.mp.result_map.SetPixel(w, h, this.mp.main_map.GetPixel(w, h));
 					foreach (Resource res in this.Panel_res.Controls) {
+						if(!res._Show.Checked) continue;
 						try
 						{
 							foreach (XYcoor xyc in res.coordinates.Controls)

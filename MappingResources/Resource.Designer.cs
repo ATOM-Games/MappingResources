@@ -30,7 +30,7 @@ namespace MappingResources
 			this.UpDown = new System.Windows.Forms.Button();
 			this.delete_button = new System.Windows.Forms.Button();
 			this.ofd = new System.Windows.Forms.OpenFileDialog();
-			this.xy_c = new List<XYcoor>();
+			this._Show = new System.Windows.Forms.CheckBox();
 			((System.ComponentModel.ISupportInitialize)(this.Resource_icon)).BeginInit();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
@@ -49,16 +49,16 @@ namespace MappingResources
 			this.name_res.Enter += new System.EventHandler(this.inputGotFocus);
 			this.name_res.Leave += new System.EventHandler(this.inputLostFocus);
 			// 
-			// pictureBox1
+			// Resource_icon
 			// 
 			this.Resource_icon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Resource_icon.Location = new System.Drawing.Point(3, 5);
-			this.Resource_icon.Name = "pictureBox1";
+			this.Resource_icon.Name = "Resource_icon";
 			this.Resource_icon.Size = new System.Drawing.Size(50, 50);
+			this.Resource_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.Resource_icon.TabIndex = 1;
 			this.Resource_icon.TabStop = false;
 			this.Resource_icon.Click += new System.EventHandler(this.pic_click);
-			this.Resource_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			// 
 			// groupBox1
 			// 
@@ -74,6 +74,7 @@ namespace MappingResources
 			// 
 			// numericUpDown2
 			// 
+			this.numericUpDown2.Enabled = false;
 			this.numericUpDown2.Location = new System.Drawing.Point(101, 18);
 			this.numericUpDown2.Maximum = new decimal(new int[] {
             150,
@@ -93,10 +94,10 @@ namespace MappingResources
             0,
             0,
             0});
-			this.numericUpDown2.Enabled = false;
 			// 
 			// numericUpDown1
 			// 
+			this.numericUpDown1.Enabled = false;
 			this.numericUpDown1.Location = new System.Drawing.Point(6, 18);
 			this.numericUpDown1.Maximum = new decimal(new int[] {
             150,
@@ -116,7 +117,6 @@ namespace MappingResources
             0,
             0,
             0});
-			this.numericUpDown1.Enabled = false;
 			// 
 			// coordinates
 			// 
@@ -164,11 +164,24 @@ namespace MappingResources
 			this.delete_button.UseVisualStyleBackColor = true;
 			this.delete_button.Click += new System.EventHandler(this.delete_button_Click);
 			// 
+			// Show
+			// 
+			this._Show.AutoSize = true;
+			this._Show.Checked = true;
+			this._Show.CheckState = System.Windows.Forms.CheckState.Checked;
+			this._Show.Location = new System.Drawing.Point(3, 57);
+			this._Show.Name = "Show";
+			this._Show.Size = new System.Drawing.Size(53, 17);
+			this._Show.TabIndex = 8;
+			this._Show.Text = "Show";
+			this._Show.UseVisualStyleBackColor = true;
+			// 
 			// Resource
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.Controls.Add(this._Show);
 			this.Controls.Add(this.delete_button);
 			this.Controls.Add(this.UpDown);
 			this.Controls.Add(this.Reset);
@@ -205,8 +218,8 @@ namespace MappingResources
 		public System.Windows.Forms.NumericUpDown countRess;
 		private System.Windows.Forms.Button Reset;
 		private System.Windows.Forms.Button UpDown;
-		public List<XYcoor> xy_c;
 		private System.Windows.Forms.Button delete_button;
 		private System.Windows.Forms.OpenFileDialog ofd;
+		public System.Windows.Forms.CheckBox _Show;
 	}
 }
