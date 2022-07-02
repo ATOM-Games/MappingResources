@@ -232,7 +232,28 @@ namespace MappingResources
 
 		private void экспортКартинкиToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-
+			saveFileDialog1.Title = "Экспортировать карту";
+			saveFileDialog1.Filter = ABC_lib_01.fileFormat_img;
+			if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
+				return;
+			ImageFormat _if;
+			switch (saveFileDialog1.FilterIndex) {
+				case 1: {
+						_if = ImageFormat.Bmp;
+						break;
+					}
+				case 4:
+					{
+						_if = ImageFormat.Png;
+						break;
+					}
+				default:
+					{
+						_if = ImageFormat.Jpeg;
+						break;
+					}
+			}
+			this.mp.result_map.Save(saveFileDialog1.FileName, _if);
 		}
 	}
 }
