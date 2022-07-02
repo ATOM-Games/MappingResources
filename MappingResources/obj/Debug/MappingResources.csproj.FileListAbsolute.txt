@@ -21,3 +21,6 @@ C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResou
 C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResources.exe
 C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResources.pdb
 C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResources.SetSeed.resources
+C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResources.Resource.resources
+C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResources.XYcoor.resources
+C:\Users\1\source\repos\MappingResources\MappingResources\obj\Debug\MappingResources.SizeIcon.resources
